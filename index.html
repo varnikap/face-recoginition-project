@@ -1,0 +1,50 @@
+<html>
+    <head>
+      <title>Family Face Recongition</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <center>
+            <h1> Family Face Recongition</h1>
+        <br>
+        <h3>Made by Teachable Machine</h3>
+        <br>
+    <h5> Machine is able to train :</h5>
+    <br><br>
+    <h6> Father</h6>
+    <hr>
+    <br><br>
+    <h6> Mother</h6>
+    <hr>
+    <br><br>
+    <h6> Sister</h6>
+    <hr>
+    <br><br>
+
+    <h5> Webcam-</h5>
+    <div id="camera"></div>
+    <br><br>
+    <div id="result"></div>
+    <br><br>
+    <button onclick="capture();" id="capture" style="background-color:green;"> Capture Image</button>
+    <br><br>
+    <button onclick="identify();" id="identify"style="background-color:red;"> Identify Image</button>
+    <br><br>
+    <br><br>
+    <h5> Object:</h5>
+    <br><br>
+    <h5> Accurancy:</h5>
+        </center>
+        
+
+
+    </body>
+    </html>
